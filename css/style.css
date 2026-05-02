@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #262423;
+    padding: 20px 0;
+}
+
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+.header a {
+    font-family: 'Noto Sans', serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu nav {
+    display: flex;
+    justify-content: center;
+    column-gap: 45px;
+
+}
+
+.menu nav :hover {
+    display: flex;
+    justify-content: center;
+    column-gap: 45px;
+    color: #3C8527;
+}
+
+
+.button_container a {
+    display: flex;
+    padding: 6px 12px;
+    background: #3C8527;
+    border: 2px solid #52A535;
+    text-decoration: none;
+    font-family: 'Noto Sans', serif;
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    width: 60px;
+}
+
+.button_container a:hover {
+    display: flex;
+    padding: 6px 12px;
+    background: #54cd32;
+    border: 2px solid #52A535;
+    text-decoration: none;
+    font-family: 'Noto Sans', serif;
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    width: 60px;
+}
+
+.Discover_our_games {
+    background-color: #171615;
+    padding: 48px 60px 40px;
+}
+
+.Discover_our_games h1 {
+    font-family: 'Minecraft Ten', serif;
+    font-size: 56px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.Discover_our_games a {
+    display: block;
+    margin-bottom: 48px;
+    text-align: center;
+    font-weight: bold;
+    color: #6cc349;
+}
+
+
+.Discover_our_games a:hover {
+    display: block;
+    margin-bottom: 48px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 0;
+}
+
+.cards h3{
+    display: block;
+    text-align: center;
+}
+
+.card p{
+    display: block;
+    text-align: center;
+}
+
+
+.card img {
+    width: 301px;
+    height: 301px;
+    padding: 0 20px 0 0;
+}
+
+.Newest_news img {
+    width: 266px;
+    height: 266px;
+}
+
+.Discover_our_games h2 {
+    margin: 10px;
+    font-family: 'Noto Sans', serif;
+    font-size: 24px;
+    letter-spacing: 0.94px;
+    color: #fff;
+}
+
+.Discover_our_games p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #aba09c;
+}
+
+.Newest_news {
+    background-color: #262423;
+    padding: 80px 72px;
+}
+
+.Newest_news h2 {
+    font-family: 'Minecraft Ten', serif;
+    font-size: 56px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.Newest_news a {
+    display: block;
+    margin-bottom: 48px;
+    text-align: center;
+    font-weight: bold;
+    color: #6cc349;
+}
+
+
+.Newest_news a:hover {
+    display: block;
+    margin-bottom: 48px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.Newest_news .cards h3 {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Minecraft Seven', serif;
+    letter-spacing: 0.56px;
+    padding: 0 10px 1px;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 6px;
+    color: #000;
+}
+
+.Newest_news p {
+    font-family: 'Minecraft Seven', serif;
+    color: #fff;
+    line-height: 24px;
+}
+
+.How_it_works {
+    background-color: #4f1030;
+    padding: 80px;
+}
+
+.How_it_works p{
+    display: block;
+    text-align: center;
+}
+
+.How_it_works h2 {
+    font-family: 'Minecraft Ten', serif;
+    font-size: 56px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.How_it_works h3 {
+    font-size: 24px;
+    font-family: "Minecraft Seven", serif;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.How_it_works p {
+    display: block;
+    color: #fff;
+    height: 40px;
+    width: 300px;
+}
+
+.text {
+    background-color: #171615;
+    color: #fff;
+    display: block;
+    padding: 30px;
+}
+
+.footer {
+    background-color: #313131;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1440px;
+    padding: 32px 24px 27px 9px;
+}
+
+.footer a:hover {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1440px;
+    padding: 32px 24px 27px 9px;
+    text-decoration: underline;
+}
+
+.footer nav{
+    display: flex;
+    justify-content: center;
+    column-gap: 45px;   
+}
+
+.footer p img {
+    padding: 0 0 15px 0;
+}
+
+.footer .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_container {
+    min-height: 70vh;
+    background: url(../img/header_bg.jpg) no-repeat center/cover;
+}
+
+.Discover_our_games p{
+    text-align: left;
+    padding: 0 0 0 6px;
+}
+
+.cards > .card p{
+    padding: 0 80px 0 0;
+    text-transform: 5px;
+}
+
+body {
+    cursor: url("../img/cursor.png"), auto;
+}
+
+a, button {
+  cursor: url("../img/klik.png"), pointer;
+}
+
+figcaption{
+    position: relative;
+}
+
+img{
+    width: 100px;
+    vertical-align: bottom;
+}
+
+.figure_text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+    text-align: left;
+}
+
+
+h3, p {
+    margin: 0;
+    padding: 0 5px 5px;
+}
