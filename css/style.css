@@ -109,24 +109,24 @@ ul {
 .cards {
     display: flex;
     justify-content: space-between;
+
+    flex-wrap: wrap;
     padding: 0 10px 0 0;
 }
 
-.cards h3{
+.cards h3 {
     display: block;
     text-align: center;
 }
 
-.card p{
+.card p {
     display: block;
     text-align: center;
 }
 
 
 .card img {
-    width: 301px;
-    height: 301px;
-    padding: 0 20px 0 0;
+    padding: 0 20px 0 0; 
 }
 
 .Newest_news img {
@@ -202,7 +202,7 @@ ul {
     padding: 80px;
 }
 
-.How_it_works p{
+.How_it_works p {
     display: block;
     text-align: center;
 }
@@ -263,10 +263,10 @@ ul {
     text-decoration: underline;
 }
 
-.footer nav{
+.footer nav {
     display: flex;
     justify-content: center;
-    column-gap: 45px;   
+    column-gap: 45px;
 }
 
 .footer p img {
@@ -278,39 +278,39 @@ ul {
     align-items: center;
     justify-content: space-between;
 }
+
 .main_container {
     min-height: 70vh;
     background: url(../img/header_bg.jpg) no-repeat center/cover;
 }
 
-.Discover_our_games p{
+.Discover_our_games p {
     text-align: left;
     padding: 0 0 0 6px;
 }
 
-.cards > .card p{
+.cards>.card p {
     padding: 0 80px 0 0;
-    text-transform: 5px;
 }
 
 body {
     cursor: url("../img/cursor.png"), auto;
 }
 
-a, button {
-  cursor: url("../img/klik.png"), pointer;
+a,
+button {
+    cursor: url("../img/klik.png"), pointer;
 }
 
-figcaption{
+figcaption {
     position: relative;
 }
 
-img{
+img {
     width: 100px;
-    vertical-align: bottom;
 }
 
-.figure_text{
+.figure_text {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -322,40 +322,73 @@ img{
     text-align: left;
 }
 
-h3, p {
+h3,
+p {
     margin: 0;
     padding: 0 5px 5px;
 }
 
-@media screen and (min-width:768px) {
-    html {
-        font-size: 2.85px
-    }
-    .cards_container {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
+.Newest_news p,
+a {
+    font-size: 14px;
+    line-height: 24px;
 }
 
- @media screen and (min-width:1200px) {
+.How_it_works p{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.text p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+@media screen and (min-width:768px) {
     html {
-        font-size:1px;
+        font-size: 0.85px
     }
-    .menu, .button_container{
+
+    .card{
+     width: 45%;
+    }
+
+    .card img {
+        width: 100%;
+        max-width: 517rem;
+        max-height: 517rem;
+    }
+    
+
+}
+
+@media screen and (min-width:1200px) {
+    html {
+        font-size: 1px;
+    }
+
+    .menu,
+    .button_container {
         display: block;
     }
+
+    .cards{
+        flex-wrap: nowrap;
+    }
+
     .burger {
         display: none;
     }
- }
+}
 
- @media screen and (min-width:1920px) {
+@media screen and (min-width:1920px) {
     html {
         font-size: 1.3px;
     }
- }
+}
 
- @media screen and (min-width:2200px) {
+@media screen and (min-width:2200px) {
     html {
-        font-size:2.5px;
+        font-size: 2.5px;
     }
- }
+}
