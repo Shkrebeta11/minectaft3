@@ -16,8 +16,9 @@
                     <img src="img/logo.png" alt="">
                 </a>
             </div>
-            <div class="menu">
+            <div class="menu menu_header" id="menu">
                 <nav>
+                    <li class="cancel" id="cancel"><a href="#">X</a></li>
                     <li><a href="#">Games</a></li>
                     <li><a href="#">Shop</a></li>
                     <li><a href="#">News</a></li>
@@ -27,6 +28,10 @@
             <div class="button_container">
                 <a href="#">Buy now</a>
             </div>
+            <div class="burger" id="burger">
+             <span></span>
+             <span></span>
+             <span></span>
         </div>
     </div>
     <main class="main">
@@ -197,6 +202,15 @@
             <p><img src="img/Logo_Microsoft.png" alt=""></p>
         </div>
     </div>
+    <script>
+          burger.onclick = () => {
+            menu.style.left = '0'
+          }
+
+          cancel.onclick = () => {
+            menu.style.left = '-120%'
+          }
+    </script>
 </body>
 
 </html>

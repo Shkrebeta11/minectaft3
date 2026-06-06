@@ -13,6 +13,36 @@
     margin: 0 auto;
 }
 
+.menu,
+.button_container {
+    display: none;
+}
+
+.menu_header {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50vw;
+    height: 100vh;
+    padding: 40rem;
+    background-color: #000;
+    z-index: 1000;
+    transition: 0.5s;
+}
+
+.cancel {
+    position: absolute;
+    top: 20rem;
+    right: 20rem;
+}
+
+.menu_header a {
+    display: block;
+    padding: 5rem 10rem;
+    font-size: 34rem;
+}
+
 .header .wrapper {
     display: flex;
     align-items: center;
@@ -36,7 +66,12 @@ ul {
     display: flex;
     justify-content: center;
     column-gap: 45px;
+}
 
+.flex_between {
+    display: flex;
+    justify-content: space-between;
+    gap: 20rem;
 }
 
 .menu nav :hover {
@@ -126,7 +161,7 @@ ul {
 
 
 .card img {
-    padding: 0 20px 0 0; 
+    padding: 0 20px 0 0;
 }
 
 .Newest_news img {
@@ -334,7 +369,7 @@ a {
     line-height: 24px;
 }
 
-.How_it_works p{
+.How_it_works p {
     font-size: 14px;
     line-height: 24px;
 }
@@ -344,13 +379,28 @@ a {
     line-height: 24px;
 }
 
+.burger {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.burger span {
+    width: 100%;
+    height: 5px;
+    background-color: #518315;
+    border-radius: 3px;
+}
+
 @media screen and (min-width:768px) {
     html {
         font-size: 0.85px
     }
 
-    .card{
-     width: 45%;
+    .card {
+        width: 45%;
     }
 
     .card img {
@@ -358,7 +408,7 @@ a {
         max-width: 517rem;
         max-height: 517rem;
     }
-    
+
 
 }
 
@@ -372,8 +422,24 @@ a {
         display: block;
     }
 
-    .cards{
+    .cards {
         flex-wrap: nowrap;
+    }
+
+    .menu {
+        position: static;
+        width: auto;
+        height: auto;
+        padding: 0;
+    }
+
+    .menu_header ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cancel{
+        display: none;
     }
 
     .burger {
