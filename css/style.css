@@ -25,7 +25,6 @@
     left: -100%;
     width: 50vw;
     height: 100vh;
-    padding: 40rem;
     background-color: #262423;
     z-index: 1000;
     transition: 0.5s;
@@ -234,7 +233,7 @@ ul {
 
 .How_it_works {
     background-color: #4f1030;
-    padding: 80px;
+    padding: 30px;
 }
 
 .How_it_works p {
