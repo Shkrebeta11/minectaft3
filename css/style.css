@@ -97,7 +97,6 @@ ul {
 
 .button_container a:hover {
     display: flex;
-    padding: 6px 12px;
     background: #54cd32;
     border: 2px solid #52A535;
     text-decoration: none;
@@ -143,9 +142,7 @@ ul {
 .cards {
     display: flex;
     justify-content: space-between;
-
     flex-wrap: wrap;
-    padding: 0 10px 0 0;
 }
 
 .cards h3 {
@@ -184,7 +181,6 @@ ul {
 
 .Newest_news {
     background-color: #262423;
-    padding: 80px 72px;
 }
 
 .Newest_news h2 {
@@ -218,7 +214,6 @@ ul {
     font-size: 14px;
     font-family: 'Minecraft Seven', serif;
     letter-spacing: 0.56px;
-    padding: 0 10px 1px;
     text-align: center;
     background: #fff;
     margin-bottom: 6px;
@@ -403,7 +398,7 @@ a {
     }
 
     .card img {
-        width: 100%;
+        width: 80%;
         max-width: 517rem;
         max-height: 517rem;
     }
