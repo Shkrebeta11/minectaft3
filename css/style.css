@@ -115,7 +115,6 @@ ul {
 
 .Discover_our_games h1 {
     font-family: 'Minecraft Ten', serif;
-    font-size: 56px;
     text-align: center;
     color: #fff;
     margin-bottom: 20px;
@@ -143,6 +142,14 @@ ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 30px;
+}
+
+.How_it_works .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
 }
 
 .cards h3 {
@@ -153,11 +160,6 @@ ul {
 .card p {
     display: block;
     text-align: center;
-}
-
-
-.card img {
-    padding: 0 20px 0 0;
 }
 
 .Newest_news img {
@@ -171,12 +173,14 @@ ul {
     font-size: 24px;
     letter-spacing: 0.94px;
     color: #fff;
+    text-align: center;
 }
 
 .Discover_our_games p {
     font-size: 14px;
     line-height: 24px;
     color: #aba09c;
+    text-align: center  ;
 }
 
 .Newest_news {
@@ -256,8 +260,6 @@ ul {
 .How_it_works p {
     display: block;
     color: #fff;
-    height: 40px;
-    width: 300px;
 }
 
 .text {
@@ -315,7 +317,6 @@ ul {
 
 .Discover_our_games p {
     text-align: left;
-    padding: 0 0 0 6px;
 }
 
 .cards>.card p {
@@ -336,7 +337,7 @@ figcaption {
 }
 
 img {
-    width: 100px;
+    width: 100%;
 }
 
 .figure_text {
@@ -354,7 +355,6 @@ img {
 h3,
 p {
     margin: 0;
-    padding: 0 5px 5px;
 }
 
 .Newest_news p,
@@ -374,7 +374,7 @@ a {
 }
 
 .burger {
-    width: 70px;
+    width: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -388,6 +388,12 @@ a {
     border-radius: 3px;
 }
 
+@media screen and (min-width:320px) {
+    .footer nav{
+        display: none;
+    }
+}
+
 @media screen and (min-width:768px) {
     html {
         font-size: 0.85px
@@ -398,11 +404,10 @@ a {
     }
 
     .card img {
-        width: 80%;
+        width: 100%;
         max-width: 517rem;
         max-height: 517rem;
     }
-
 
 }
 
