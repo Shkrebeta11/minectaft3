@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+html {
+    font-size: 0.8px;
+} 
 .header {
     background-color: #262423;
     padding: 20px 0;
@@ -17,7 +19,7 @@
 .button_container {
     display: none;
 }
-
+ 
 .menu_header {
     display: block;
     position: absolute;
@@ -388,13 +390,10 @@ a {
     border-radius: 3px;
 }
 
-@media screen and (min-width:320px) {
-    .footer nav{
-        display: none;
-    }
-}
+
 
 @media screen and (min-width:768px) {
+    
     html {
         font-size: 0.85px
     }
